@@ -1,0 +1,81 @@
+@import 'normalize.css';
+@import './BoxModel.scss';
+@import './ColorFormat.scss';
+@import './Common.scss';
+@import './FlexBox.scss';
+@import './Hover.scss';
+@import './TextFormat.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+:root {
+    // Colors
+    --primary-color: #fe3464;
+    --primary-hover-color: #d42a53;
+    --text-color: #0e0e0e;
+    --white-color: #fff;
+    --gray-color: #ccc;
+
+    // Sizes
+    --header-height: 74px;
+    --header-items-height: 42px;
+    --default-width: 1160px;
+
+    // Format
+    --border-radius: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    color: #0e0e0e;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    // text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+    // background-color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+// Tippybox
+body .tippy-box {
+    background-color: rgba(14, 14, 14, 0.75);
+    border-radius: 8px;
+    font-family: 'Nuntino Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 140%;
+    font-weight: 600;
+}

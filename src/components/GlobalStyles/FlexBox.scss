@@ -1,0 +1,35 @@
+.d-flex {
+    display: flex;
+}
+.d-iflex {
+    display: inline-flex;
+}
+
+// Flex-box
+.jc-center {
+    justify-content: center;
+}
+.jc-between {
+    justify-content: space-between;
+}
+.jc-start {
+    justify-content: flex-start;
+}
+.jc-end {
+    justify-content: flex-end;
+}
+.ai-center {
+    align-items: center;
+}
+.ai-start {
+    align-items: flex-start;
+}
+.ai-end {
+    align-items: flex-end;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-1 {
+    flex: 1 1 0;
+}

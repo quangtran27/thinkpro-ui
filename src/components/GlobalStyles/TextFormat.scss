@@ -1,0 +1,30 @@
+// Font sizes
+.text-body {
+    font-size: 16px;
+}
+.text-ui {
+    font-size: 14px;
+    line-height: 140%;
+}
+.text-label {
+    font-size: 12px;
+}
+
+// Font weights
+.bold {
+    font-weight: 700;
+}
+
+.extra-bold {
+    font-weight: 800;
+}
+
+// Layout
+.text-center {
+    text-align: center;
+}
+
+// Text formatters
+.text-underline {
+    text-decoration: underline;
+}

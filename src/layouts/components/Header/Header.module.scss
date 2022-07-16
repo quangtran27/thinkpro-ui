@@ -1,0 +1,35 @@
+.header {
+    align-items: center;
+    background-color: var(--white-color);
+    display: flex;
+    height: var(--header-height);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    height: var(--header-items-height);
+    margin: 0 auto;
+    width: var(--default-width);
+}
+
+.main-logo {
+    height: 36px;
+    width: 132px;
+}
+
+.btn-promo {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 20px;
+    color: rgba(212, 42, 83);
+
+    &:hover {
+        color: rgba(0, 101, 238);
+    }
+}

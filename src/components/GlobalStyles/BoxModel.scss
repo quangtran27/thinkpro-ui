@@ -1,0 +1,39 @@
+/* -- Margins -- */
+
+$sizes: 0, 4, 8, 12, 16, 20, 24, 32;
+
+@each $size in $sizes {
+    // Margins
+    .m-#{$size} {
+        margin: #{$size}px;
+    }
+    .mt-#{$size} {
+        margin-top: #{$size}px;
+    }
+    .mr-#{$size} {
+        margin-right: #{$size}px;
+    }
+    .mb-#{$size} {
+        margin-bottom: #{$size}px;
+    }
+    .ml-#{$size} {
+        margin-left: #{$size}px;
+    }
+
+    // Paddings
+    .p-#{$size} {
+        padding: #{$size}px;
+    }
+    .pt-#{$size} {
+        padding-top: #{$size}px;
+    }
+    .pr-#{$size} {
+        padding-right: #{$size}px;
+    }
+    .pb-#{$size} {
+        padding-bottom: #{$size}px;
+    }
+    .pl-#{$size} {
+        padding-left: #{$size}px;
+    }
+}
