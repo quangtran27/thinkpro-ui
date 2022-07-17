@@ -11,9 +11,6 @@
     transition: all 0.2s linear;
     white-space: nowrap;
 
-    &:hover {
-        background-color: rgba(236, 240, 244);
-    }
     &.active {
         background-color: #0065ee;
         fill: var(--white-color);
@@ -23,7 +20,8 @@
     }
     &.disabled {
         opacity: 0.5;
-        pointer-events: none;
+        // pointer-events: none;
+        cursor: not-allowed;
     }
     &.circle {
         border-radius: 999px;
@@ -37,6 +35,9 @@
         min-width: 200px;
         padding: 12px;
     }
+    &.lightActive {
+        background-color: #ebf3ff;
+    }
     &.primary {
         background-color: var(--primary-color);
         color: var(--white-color);
@@ -48,5 +49,11 @@
     }
     &.rounded {
         border-radius: 999px;
+    }
+    & ~ & {
+        margin-left: 8px;
+    }
+    &:hover {
+        background-color: rgba(236, 240, 244);
     }
 }

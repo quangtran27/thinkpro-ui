@@ -181,11 +181,10 @@ function Account() {
                         </section>
                         <section className='mt-12 mb-12'>
                             <MenuItem
-                                disabled
                                 iconLeft={
                                     <LogoutIcon className='fill-primary' />
                                 }
-                                content='Đăng ký'
+                                content='Đăng xuất'
                                 iconRight={<AngleRightIcon />}
                             />
                         </section>

@@ -12,6 +12,7 @@ type ButtonProps = {
     fill?: string
     height?: string
     large?: boolean
+    lightActive?: boolean
     primary?: boolean
     rounded?: boolean
     small?: boolean
@@ -29,6 +30,7 @@ function Button({
     fill,
     height,
     large,
+    lightActive,
     primary,
     rounded,
     small,
@@ -48,6 +50,7 @@ function Button({
             circle,
             disabled,
             large,
+            lightActive,
             primary,
             small,
             rounded,

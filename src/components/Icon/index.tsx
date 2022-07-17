@@ -6,6 +6,7 @@ export type IconProps = {
 }
 
 export { AngleRightIcon } from './AngleRightIcon'
+export { AngleLeftIcon } from './AngleLeftIcon'
 export { BookMarkIcon } from './BookMarkIcon'
 export { BoxIcon } from './BoxIcon'
 export { BellIcon } from './BellIcon'
